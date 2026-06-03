@@ -233,24 +233,17 @@
          "value": ""
        },
        {
-        "component": "aem-content",
-        "name": "links",
-        "label": "Links",
-        "multi": false,
-        "fields": [
-          {
-            "name": "title",
-            "label": "Titolo del Link",
-            "type": "text",
-            "required": true
-          },
-          {
-            "name": "url",
-            "label": "URL / Destinazione",
-            "type": "text"
-          }
-        ]
+       "component": "aem-content",
+       "name": "link",
+       "label": "Link",
+       "multi": false
        },
+       {
+        "component": "text",
+        "valueType": "string",
+        "name": "titleLink",
+        "label": "Title Link"
+        },
        {
         "component": "select",
         "name": "classes",
@@ -270,6 +263,10 @@
           {
             "name": "Blue",
             "value": "bg-blue"
+          },
+          {
+            "name": "none",
+            "value": ""
           }
         ]
       }
