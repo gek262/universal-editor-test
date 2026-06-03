@@ -218,26 +218,26 @@
   {
     "id": "quote",
     "fields": [
-       {
-         "component": "richtext",
-         "name": "quote",
-         "value": "",
-         "label": "Quote",
-         "valueType": "string"
-       },
-       {
+      {
+        "component": "richtext",
+        "name": "quote",
+        "value": "",
+        "label": "Quote",
+        "valueType": "string"
+      },
+      {
        "component": "aem-content",
        "name": "link",
        "label": "Link",
        "multi": false
-       },
-       {
+      },
+      {
         "component": "text",
         "valueType": "string",
         "name": "titleLink",
         "label": "Title Link"
-        },
-       {
+      },
+      {
         "component": "select",
         "name": "classes",
         "value": "",
