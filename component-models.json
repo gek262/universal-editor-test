@@ -233,10 +233,23 @@
          "value": ""
        },
        {
-       "component": "aem-content",
-       "name": "links",
-       "label": "Links",
-       "multi": false
+        "component": "aem-content",
+        "name": "links",
+        "label": "Links",
+        "multi": false,
+        "fields": [
+          {
+            "name": "title",
+            "label": "Titolo del Link",
+            "type": "text",
+            "required": true
+          },
+          {
+            "name": "url",
+            "label": "URL / Destinazione",
+            "type": "text"
+          }
+        ]
        },
        {
         "component": "select",
