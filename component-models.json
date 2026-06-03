@@ -233,17 +233,26 @@
          "value": ""
        },
        {
-       "component": "aem-content",
-       "name": "link",
-       "label": "Link",
-       "multi": false
+        "component": "aem-content",
+        "name": "callToAction",
+        "label": "Link & Titolo",
+        "valueType": "object",
+        "multi": false,
+        "fields": [
+          {
+            "component": "text",
+            "name": "title",
+            "label": "Titolo del Link",
+            "valueType": "string"
+          },
+          {
+            "component": "text",
+            "name": "url",
+            "label": "URL / Destinazione",
+            "valueType": "string"
+          }
+        ]
        },
-       {
-        "component": "text",
-        "valueType": "string",
-        "name": "titleLink",
-        "label": "Title Link"
-        },
        {
         "component": "select",
         "name": "classes",
