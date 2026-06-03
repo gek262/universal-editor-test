@@ -236,7 +236,7 @@
        "component": "aem-content",
        "name": "links",
        "label": "Links",
-       "multi": true
+       "multi": false
        },
        {
         "component": "select",
