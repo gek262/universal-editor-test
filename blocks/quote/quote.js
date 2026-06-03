@@ -1,14 +1,10 @@
 export default function decorate(block) {
-  const [quoteWrapper, authorWrapper, linkWrapper, titleLinkWrapper] = block.children;
+  const [quoteWrapper, linkWrapper, titleLinkWrapper] = block.children;
 
   if (quoteWrapper) {
     const blockquote = document.createElement('blockquote');
     blockquote.textContent = quoteWrapper.textContent.trim();
     quoteWrapper.replaceChildren(blockquote);
-  }
-
-  if (authorWrapper && authorWrapper.textContent.trim()) {
-    authorWrapper.classList.add('quote-author');
   }
 
   if (linkWrapper && titleLinkWrapper) {

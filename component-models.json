@@ -218,39 +218,26 @@
   {
     "id": "quote",
     "fields": [
-      {
-        "component": "object",
-        "name": "quoteData",
-        "label": "Contenuto Citazione",
-        "valueType": "object",
-        "fields": [
-          {
-            "component": "richtext",
-            "name": "text",
-            "label": "Testo della Citazione",
-            "valueType": "string"
-          },
-          {
-            "component": "text",
-            "name": "author",
-            "label": "Autore",
-            "valueType": "string"
-          }
-        ]
-      },
-      {
+       {
+         "component": "richtext",
+         "name": "quote",
+         "value": "",
+         "label": "Quote",
+         "valueType": "string"
+       },
+       {
        "component": "aem-content",
        "name": "link",
        "label": "Link",
        "multi": false
-      },
-      {
+       },
+       {
         "component": "text",
         "valueType": "string",
         "name": "titleLink",
         "label": "Title Link"
-      },
-      {
+        },
+       {
         "component": "select",
         "name": "classes",
         "value": "",
