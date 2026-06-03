@@ -57,3 +57,12 @@
     width: 30px;
     background-color: darkgray;
 }
+.block.bg-red {
+    background-color: red;
+}
+.block.bg-green {
+    background-color: green;
+}
+.block.bg-blue {
+    background-color: blue;
+}
